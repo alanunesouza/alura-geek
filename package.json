@@ -1,0 +1,33 @@
+{
+  "name": "alura-geek",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "json-server": "^0.17.0",
+    "roboto-fontface": "*",
+    "vue": "^3.2.37",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vue/compiler-sfc": "^3.2.39",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "prettier": "^2.7.1",
+    "vite": "^3.1.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  },
+  "type": "module"
+}
